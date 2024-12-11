@@ -1,5 +1,7 @@
 
 
+
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -69,9 +71,9 @@
 //                  |     |     |     |                    |     |      |     |
 
                         bindings = <
-   &none   &trans         &kp ESC        &kp TAB      &trans         &trans                               &kp DEL        &kp DEL        &trans         &kp PG_UP       &trans         &none
+   &none   &trans         &kp ESC        &kp TAB      &trans         &trans                               &kp BSPC       &kp BSPC       &trans         &kp PG_UP       &trans         &none
    &none   &trans         &trans         &trans       &trans         &trans                               &trans         &kp LEFT       &kp DOWN       &kp UP          &kp RIGHT      &none
-   &none   &trans         &trans         &kp TAB      &trans         &trans &bootloader    &none          &trans         &kp DEL        &kp PG_DN      &kp RET         &trans         &none
+   &none   &trans         &trans         &kp TAB      &trans         &trans &bootloader    &none          &trans         &kp BSPC       &kp PG_DN      &kp RET         &trans         &none
                                          &trans       &trans         &trans                               &trans         &trans         &trans
                         >;
 
