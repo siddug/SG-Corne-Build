@@ -11,8 +11,7 @@
                         compatible = "zmk,behavior-hold-tap";
                         label = "HOME_ROW_MOD";
                         #binding-cells = <2>;
-                        tapping-term-ms = <200>;
-                        quick-tap-ms = <150>;
+                        tapping-term-ms = <160>;
                         flavor = "balanced";
                         bindings = <&kp>, <&kp>;
                 };
@@ -21,8 +20,7 @@
                         compatible = "zmk,behavior-hold-tap";
                         label = "Tap for KC_A, Hold for Layer 1";
                         #binding-cells = <2>;
-                        tapping-term-ms = <200>;
-                        quick-tap-ms = <150>;
+                        tapping-term-ms = <160>;
                         flavor = "balanced";
                         bindings = <&kp>, <&mo>;
                 };
